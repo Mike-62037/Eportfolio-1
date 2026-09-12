@@ -38,6 +38,7 @@ li {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
 .text--purple {
@@ -102,7 +103,6 @@ nav {
 .about-me__info--container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   max-width: 500px;
   margin: 0 auto;
@@ -114,7 +114,8 @@ nav {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.16)
+  box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.16);
+  margin-bottom: 28px;
 }
 
 .about-me__picture {
@@ -135,7 +136,7 @@ nav {
 
 .about-me__link {
   font-size: 20px;
-  color: black;
+  color: #242424;
   text-decoration: none;
   padding: 0 16px;
 }
