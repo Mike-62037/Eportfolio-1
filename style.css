@@ -171,10 +171,6 @@ nav {
   text-align: center; 
 }
 
-.css {
-  scale: 1.05
-}
-
 
 .language:hover .language__img{
   filter: brightness (80%);
