@@ -12,15 +12,22 @@
     <nav>
       <div class="personal__logo">Michael Paige</div>
       <ul class="nav__link--list">
-        <li>
-          <a href="" class="
+        <li class="nav__link">
+          <a href="#languages" class="
           nav__link--anchor
           link__hover--effect
           link__hover--effect--black
-          ">Project</a>
+          ">Languages</a>
+        </li>
+        <li class="nav__link">
+          <a href="#projects" class="
+          nav__link--anchor
+          link__hover--effect
+          link__hover--effect--black
+          ">Projects</a>
         </li>
         <li>
-          <a href="" class="
+          <a href="mailto:timeconsumer37@gmail.com" class="
           nav__link--anchor
           nav__link--anchor-primary
           ">Contact</a>
@@ -34,7 +41,7 @@
             <img src="./assets/erizo-and-i.jpeg" class="about-me__picture" alt="Picture of me!">
           </figure>
           <h1 class="about-me__info--title">
-            Hey! I'm <span class="text--purple">Michael Paige</span>
+            Hey! I'm <span class="text--purple">Michael Paige</span>&nbsp;<span class="wave">👋</span>
           </h1>
           <p class="about-me__info--para">
              I'm starting a transition from warehouse work, to a <strong class="text--purple">frontend software engineer</strong>. I'm very interested in learning new things and when I'm passionate about something ( like what im doing now ) I give it my all. Very excited to be on this new journey, to bring my family, and show my son its possible to succeed even if things are hard, to not give up and keep learning and keep pushing through.
@@ -48,6 +55,9 @@
             </a>
             <a href="" class="about-me__link">
               <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="" target="_blank" class="about-me__link">
+              <i class="fa-solid fa-file-pdf"></i>
             </a>
           </div>
         </div>
@@ -78,8 +88,8 @@
             <figure class="language__img--wrapper">
               <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="" class="language__img">
             </figure>
+            <span class="language_name">JavaScript</span>
           </div>
-            <span class="language_name">JAVASCRIPT</span>
           <div class="language">
             <figure class="language__img--wrapper">
                 <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="" class="language__img">
@@ -142,20 +152,34 @@
     </div>
   </section>
   <footer>
-    <div class="row">
-      <a href="#">
-        <figure>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure clas="footer__logo">
           <img src="" alt="">
         </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
       </a>
       <div class="footer__social--list">
+        <a href="https://github.com/Mike-62037" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">GitHub</a>
+        <a href="mailto:timeconsumer37@gmail.com" class="
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank">Email</a>
         <a href="" class="
-        footer__social--link
-        link__hover-effect
-        link__hover-effect--white
-        " target="_blank">
-      </a>
+          footer__social--link
+          link__hover-effect
+          link__hover-effect--white
+        " target="_blank" download>Resume</a>
       </div>
+        <div class="footer__copyright">Copyright © 2026 Michael Paige</div>
     </div>
   </footer>
 </body>
